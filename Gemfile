@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'berkshelf'
+gem 'chef'
 
 group :development do  
   gem 'test-kitchen'
@@ -8,4 +9,19 @@ group :development do
   gem 'guard'
   gem 'guard-kitchen'
   gem 'knife-spork'
+  gem 'chef-zero'
+  gem 'knife-vagrant'
+  gem 'knife-windows'
+  gem 'knife-docker'
+  gem 'knife-stencil'
+  gem 'knife-rackspace'
+  gem 'knife-role-spaghetti'
+  gem 'knife-audit'
+  gem 'knife-env-diff'
+  gem 'knife-spec'
+  gem 'chef-metal'
+  gem 'chef-metal-docker'
+  gem 'chef-metal-ssh' 
+  gem 'chef-metal-vagrant'
+  gem 'chef-metal-fog'
 end  
